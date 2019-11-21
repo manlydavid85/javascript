@@ -23,3 +23,13 @@ expandibleButton.addEventListener('click', function(params) {
     this.classList.add("increase");
 
 });
+let lastName = document.getElementById('last_name');
+let firstName = document.getElementById('first_name');
+let submit = document.getElementById('submit');
+let welcome = document.getElementById('welcome');
+
+submit.addEventListener('click', function(e) {
+
+    e.preventDefault();
+    welcome.innerHTML = `Welcome ${firstName.value} ${lastName.value}`
+})
