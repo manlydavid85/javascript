@@ -21,5 +21,4 @@ greekButton.addEventListener('click', function(params) {
 var expandibleButton = document.getElementById('expandOnClick');
 expandibleButton.addEventListener('click', function(params) {
     this.classList.add("increase");
-
 });
